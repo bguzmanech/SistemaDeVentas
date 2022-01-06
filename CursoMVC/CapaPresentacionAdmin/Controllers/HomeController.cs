@@ -26,7 +26,7 @@ namespace CapaPresentacionAdmin.Controllers
 
             oLista = new CN_USUARIOS().Listar();
 
-            return Json(oLista,JsonRequestBehavior.AllowGet);
+            return Json(new { data = oLista },JsonRequestBehavior.AllowGet);
         }
 
 
