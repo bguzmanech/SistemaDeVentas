@@ -84,3 +84,9 @@ C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.c
 C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CopyComplete
 C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
 C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
+C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.dll
+C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.dll
+C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.dll
+C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\bin\CapaNegocio.pdb
+C:\SistemaVenta\CursoMVC\CapaPresentacionAdmin\bin\CapaDatos.pdb
