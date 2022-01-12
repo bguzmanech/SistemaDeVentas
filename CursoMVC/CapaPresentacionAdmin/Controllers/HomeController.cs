@@ -29,6 +29,8 @@ namespace CapaPresentacionAdmin.Controllers
             return Json(new { data = oLista },JsonRequestBehavior.AllowGet);
         }
 
+        /* generar los metodos registrar, eliminar, editar -video 11-*/
+
 
 
     }
