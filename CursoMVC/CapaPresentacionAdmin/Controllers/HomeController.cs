@@ -31,7 +31,22 @@ namespace CapaPresentacionAdmin.Controllers
 
         /* generar los metodos registrar, eliminar, editar -video 11-*/
 
+        [HttpPost]
 
+        public JsonResult GuardarUsuario(Usuario objeto)
+        {
+            object resultado;
+            string mensaje = string.Empty;
+            if (objeto.IdUsuario == 0)
+            {
+                resultado = new CN_USUARIOS().Registrar(objeto, out mensaje);
+            }
+            else
+            {
+                resultado = new CN_USUARIOS().Editar(objeto, out mensaje);
+            }
 
+            return Json(new { resultado = resultado, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
+        }
     }
 }
